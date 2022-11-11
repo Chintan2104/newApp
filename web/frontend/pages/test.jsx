@@ -17,9 +17,7 @@ function loadData() {
     const handleSelection = (i) => {
         setdata(i.selection)
         setisOpen(true)
-        console.log(i.length)
     }
-    console.log(data.length, "data length")
 
     function loadMore() {
         setIndex(index + 3);
@@ -58,9 +56,7 @@ function loadData() {
 
     const handleShow = () => {
         setisOpen(false)
-        console.log(isOpen);
     }
-    console.log(isOpen);
 
     return (
         <>{isOpen == false ?
