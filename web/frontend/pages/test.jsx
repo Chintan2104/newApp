@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { slice } from "lodash";
 import { Provider, ResourcePicker } from '@shopify/app-bridge-react';
 import { Button } from '@shopify/polaris';
