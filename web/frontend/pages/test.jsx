@@ -22,7 +22,7 @@ function loadData() {
     function loadMore() {
         setIndex(index + 3);
     }
-    console.log(index, "index");
+    
     const products = () => {
         return (
             <div>
